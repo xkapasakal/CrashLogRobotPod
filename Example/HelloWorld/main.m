@@ -8,6 +8,7 @@
 #import "Utility.h"
 #import "DataManager.h"
 #import "DetailViewController.h"
+#import "CrashLogRobot.h"
 
 @interface TestBedViewController : UITableViewController
 {
@@ -129,7 +130,7 @@
 
 - (void)sendEvent:(UIEvent *)event
 {
-    NSLog(@"%@", event);
+    NSLog(@"%@", [event crashLogRobotJsonDescription]);
     [super sendEvent:event];
 }
 
