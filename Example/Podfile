@@ -1,7 +1,9 @@
+platform :ios, '6.1'
+
 pod "CrashLogRobot", :path => "../"
 
-target "Demo" do
-end
+# target "HelloWorld" do
+# end
 
-target "DemoTests" do
-end
+# target "DemoTests" do
+# end
