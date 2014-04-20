@@ -24,3 +24,6 @@ Christos Kapasakalidis, xkapasakal@gmail.com
 
 CrashLogRobot is available under the MIT license. See the LICENSE file for more info.
 
+=======
+CrashLogRobotPod
+================
